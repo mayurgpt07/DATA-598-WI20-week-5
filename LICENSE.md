@@ -1,6 +1,6 @@
 # MIT License
 
-Copyright (c) 2020 Ben Marwick
+Copyright (c) 2020 Mayur Gupta
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
