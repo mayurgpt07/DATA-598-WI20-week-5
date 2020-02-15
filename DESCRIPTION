@@ -1,0 +1,24 @@
+Package: SimpleCompediumPackage
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author@R: person("Mayur", "Gupta", 
+                  email = "mayurgpt07@gmail.com", 
+                  role = c("aut", "cre", "cph"),
+                  comment = c(ORCID = "0000-0001-9139-5519"))
+Maintainer: Mayur Gupta <mayurgpt07@gmail.com>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+  dplyr (>= 0.8.4)
+Depends: 
+    R (>= 3.6.0)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Date: 2020-02-15
+RoxygenNote: 6.1.1

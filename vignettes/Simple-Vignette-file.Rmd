@@ -1,0 +1,57 @@
+---
+title: "Simple-Vignette-file"
+author: "Mayur Gupta"
+date: "`r Sys.Date()`"
+output: 
+  bookdown::html_document2:
+      base_format: rmarkdown::html_vignette
+      number_sections: false
+vignette: >
+  %\VignetteIndexEntry{Simple-Vignette-file}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+bibliography: biblography.bib
+---
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE,
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+#library("SimpleCompediumPackage")
+#SimpleCompediumPackage::hello()
+```
+
+```{r load-data, message=FALSE}
+library(tidyverse)
+data <- data(starwars)
+knitr::read_chunk("ExternaLSourceCode.R")
+```
+
+# GGplot for starwars mass vs height fro Humans
+
+```{r starwars-plot, dependson="load-data", fig.align='center', cache=TRUE}
+
+```
+
+We used scatter plot to display the mass vs height of human species. Just to make it more interesting I tried adding regression line to it
+
+# Star Wars-Force Awakens
+```{r, starwars-fig}
+knitr::include_graphics("StarWars.jpg")
+```
+
+# A knit kable table of  starwars data
+
+```{r starwars-tbl, dependson="load-data", cache=TRUE}
+
+```
+
+We can see in above table, some data for **Droid** and **Human** species. The Starwars table seems to have a lot less data for Droids as compared to Humans
+
+On a site note, these articles are fun to read [@R-base; @R-rmarkdown].
+
+
+# References
