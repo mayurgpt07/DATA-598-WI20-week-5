@@ -20,8 +20,9 @@ knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE,
 ```
 
 ```{r setup}
-#library("SimpleCompediumPackage")
-#SimpleCompediumPackage::hello()
+library(devtools)
+devtools::load_all()
+SimpleCompediumPackage::hello()
 ```
 
 ```{r load-data, message=FALSE}

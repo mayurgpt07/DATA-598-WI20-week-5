@@ -13,7 +13,7 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
-  dplyr (>= 0.8.4)
+  dplyr (>= 0.8.3)
 Depends: 
     R (>= 3.6.0)
 Suggests: 
