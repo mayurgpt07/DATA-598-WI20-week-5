@@ -11,8 +11,7 @@ The goal of SimpleCompediumPackage is to ...
 You can install the released version of SimpleCompediumPackage from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
-library(devtools)
-devtools::load_all()
+install.packages('SimpleCompediumPackage')
 ```
 
 ## Example
