@@ -27,8 +27,8 @@ hello()
 
 ## Licenses
 
-Text and Figures: CC-BY-4.0
-See the [DESCRIPTION](https://github.com/mayurgpt07/DATA-598-WI20-week-5/blob/master/DESCRIPTION)
+Text and Figures: CC-BY-4.0\\
+See the [DESCRIPTION](https://github.com/mayurgpt07/DATA-598-WI20-week-5/blob/master/DESCRIPTION)\\
 Data: CC-0 attribution requested in reuse
 
 ## Code of Conduct
